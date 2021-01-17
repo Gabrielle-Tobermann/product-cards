@@ -11,14 +11,14 @@ body {
   width: 350px;
   background-color: white;
   margin: 10px;
-  padding: 10px;
-  
+  padding: 0px;
+  box-shadow: 3px 3px black;
 }
 
 .card h2 {
   border-bottom: 3px lightblue solid;
   text-align: center;
-  margin: 0;
+  padding: 10px;
 }
 
 .card img {
@@ -38,4 +38,14 @@ body {
   color: yellow;
   text-align: center;
   padding: 0;
+}
+
+header {
+  text-align: center;
+  font-style:oblique;
+}
+
+.spec-text {
+  font-weight: bold;
+
 }
