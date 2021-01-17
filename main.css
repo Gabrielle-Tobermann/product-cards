@@ -1,34 +1,41 @@
 body {
-  background-color:rgb(252, 252, 252);
+  background-color:darkgray;
 }
 
 .card-container {
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-flow: row wrap;
 }
 
 .card {
   width: 350px;
-  border: 3px solid lightblue;
+  background-color: white;
   margin: 10px;
   padding: 10px;
   
 }
 
 .card h2 {
-  border: 3px lightblue solid;
+  border-bottom: 3px lightblue solid;
   text-align: center;
+  margin: 0;
 }
 
 .card img {
   height: 300px;
   width: 250px;
-  justify-content: space-around;
+  margin: 50px;
 }
 
 .image {
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+}
+
+.availability {
+  background-color: lightslategray;
+  color: yellow;
+  text-align: center;
+  padding: 0;
 }
