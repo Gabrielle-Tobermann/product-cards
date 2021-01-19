@@ -1,5 +1,5 @@
 body {
-  background-color:darkgray;
+  background-color: #B2DFDB;
   margin: 0;
   padding: 0;
 }
@@ -20,9 +20,10 @@ body {
 }
 
 .card h2 {
-  border-bottom: 3px lightblue solid;
+  border-bottom: 3px #BDBDBD solid;
   text-align: center;
   padding: 10px;
+  color: #00796B;
 }
 
 .card img {
@@ -38,7 +39,7 @@ body {
 }
 
 .availability {
-  background-color: lightslategray;
+  background-color: #BDBDBD;
   color: yellow;
   text-align: center;
   padding: 0;
@@ -48,16 +49,19 @@ h3 {
  text-align: center;
   font-style:oblique;
   font-weight: normal;
-  border-bottom: slategray 1px solid;
+  border-bottom: #BDBDBD 1px solid;
   padding-bottom: 5px;
+  color: #757575;
 }
 
 .spec-text {
   font-weight: bold;
   padding-left: 10px;
+  color: #00796B;
 }
 
 .small-text {
   padding-left: 10px;
   padding-right: 10px;
+  color: black;;
 }
