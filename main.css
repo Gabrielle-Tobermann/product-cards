@@ -24,6 +24,7 @@ body {
   text-align: center;
   padding: 10px;
   color: #00796B;
+  font-family: 'Raleway' , sans-serif;
 }
 
 .card img {
@@ -47,7 +48,7 @@ body {
 
 h3 {
  text-align: center;
-  font-style:oblique;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   border-bottom: #BDBDBD 1px solid;
   padding-bottom: 5px;
